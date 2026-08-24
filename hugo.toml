@@ -1,0 +1,100 @@
+baseURL = "https://你的用户名.github.io/"
+title = "彭围"
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+timeZone = "Asia/Shanghai"
+
+[languages]
+[languages.zh]
+  locale = "zh-cn"
+  label = "简体中文"
+  title = "彭围"
+  weight = 1
+
+[params]
+  env = "production"
+  title = "彭围"
+  description = "一句话介绍你自己"
+  keywords = ["个人主页", "博客", "彭围"]
+  author = "彭围"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  [params.assets]
+    disableHLJS = true
+
+  [params.label]
+    text = "彭围"
+
+  [params.profileMode]
+    enabled = true
+    title = "你好，我是彭围"
+    subtitle = "一句话个人简介，例如：热爱技术、喜欢写作的程序员。"
+    imageUrl = "images/avatar.svg"
+    imageTitle = "头像"
+    imageWidth = 120
+    imageHeight = 120
+    [[params.profileMode.buttons]]
+      name = "关于我"
+      url = "/about/"
+    [[params.profileMode.buttons]]
+      name = "最新文章"
+      url = "/posts/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/你的用户名"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:你的邮箱@example.com"
+
+[menu]
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  identifier = "posts"
+  name = "博客"
+  url = "/posts/"
+  weight = 2
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 3
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 4
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
