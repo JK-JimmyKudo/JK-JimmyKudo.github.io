@@ -36,12 +36,12 @@ hugo server -D
 
 ## 部署到 GitHub Pages（免费）
 
-1. 在 GitHub 新建一个仓库，名字必须是 `<你的GitHub用户名>.github.io`（例如 `zhangsan.github.io`）
+1. 在 GitHub 新建一个仓库，名字必须是 `JK-JimmyKudo.github.io`（例如 `zhangsan.github.io`）
 2. 把本目录推上去：
    ```bash
-   git remote add origin https://github.com/<你的GitHub用户名>/<你的GitHub用户名>.github.io.git
+   git remote add origin https://github.com/JK-JimmyKudo/JK-JimmyKudo.github.io.git
    git push -u origin main
    ```
 3. 在仓库 Settings → Pages 里，Source 选择 **GitHub Actions**
-4. 等几分钟，访问 `https://<你的GitHub用户名>.github.io/` 即可
+4. 等几分钟，访问 `https://JK-JimmyKudo.github.io/` 即可
 5. 之后每次 `git push` 都会自动重新构建发布
