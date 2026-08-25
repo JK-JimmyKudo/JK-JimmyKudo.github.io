@@ -48,7 +48,7 @@ timeZone = "Asia/Shanghai"
   [params.profileMode]
     enabled = true
     title = "你好，我是彭围"
-    subtitle = "一句话个人简介，例如：热爱技术、喜欢写作的程序员。"
+    subtitle = "彭围"
     imageUrl = "images/avatar.svg"
     imageTitle = "头像"
     imageWidth = 120
