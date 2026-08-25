@@ -1,4 +1,5 @@
 baseURL = "https://JK-JimmyKudo.github.io/"
+publishDir = "docs"
 title = "彭围"
 theme = "PaperMod"
 defaultContentLanguage = "zh"

@@ -32,16 +32,20 @@ hugo server -D
 ## 发布新文章
 
 在 `content/posts/` 里新建一个 `.md` 文件，格式参考 `content/posts/hello-world.md`。
-写完后推送到 GitHub 即自动发布。
+之后运行 `hugo --minify` 重新生成 docs/，再把改动推送到 GitHub 即可发布。
 
 ## 部署到 GitHub Pages（免费）
 
-1. 在 GitHub 新建一个仓库，名字必须是 `JK-JimmyKudo.github.io`（例如 `zhangsan.github.io`）
+本项目使用经典的 **/docs 分支部署**方式，不需要额外配置 Actions。
+
+1. 在 GitHub 新建一个公开仓库，名字必须是 `<你的GitHub用户名>.github.io`
 2. 把本目录推上去：
    ```bash
-   git remote add origin https://github.com/JK-JimmyKudo/JK-JimmyKudo.github.io.git
+   git remote add origin https://github.com/<你的GitHub用户名>/<你的GitHub用户名>.github.io.git
    git push -u origin main
    ```
-3. 在仓库 Settings → Pages 里，Source 选择 **GitHub Actions**
-4. 等几分钟，访问 `https://JK-JimmyKudo.github.io/` 即可
-5. 之后每次 `git push` 都会自动重新构建发布
+3. 在仓库 Settings → Pages → Source 选择 **Deploy from a branch**，分支 `main`，目录 `/docs`
+4. 等 1-2 分钟，访问 `https://<你的GitHub用户名>.github.io/` 即可
+
+> 注意：每次修改内容后，需要先运行 `hugo --minify` 重新生成 `docs/` 文件夹，
+> 再把 `docs/` 一起提交推送，网站才会更新。
