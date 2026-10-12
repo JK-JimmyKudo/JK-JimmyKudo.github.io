@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16363b"/><stop offset=".55" stop-color="#091517"/><stop offset="1" stop-color="#173c43"/></linearGradient></defs>
+  <rect width="900" height="900" fill="url(#g)"/><g fill="none" stroke="#7fe3d0" stroke-opacity=".45"><path stroke-width="5" d="M210 455 450 250l240 205v260H210Z"/><path stroke-width="2" d="M285 715V500h330v215M365 500v215M535 500v215"/><circle cx="450" cy="390" r="55"/></g><g fill="#7fe3d0"><circle cx="450" cy="390" r="9"/><circle cx="365" cy="500" r="7"/><circle cx="535" cy="500" r="7"/></g><text x="70" y="800" fill="#fff" fill-opacity=".75" font-family="sans-serif" font-size="44" letter-spacing="12">SMART HOME</text>
+</svg>

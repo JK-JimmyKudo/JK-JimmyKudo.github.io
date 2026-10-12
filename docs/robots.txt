@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://JK-JimmyKudo.github.io/sitemap.xml
