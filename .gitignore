@@ -1,5 +1,10 @@
-public/
+/public/
+node_modules/
+dist/
+.vite/
+.icon-cache/
 .hugo_build.lock
 .DS_Store
 preview-*.png
 live-*.png
+portfolio-*.png

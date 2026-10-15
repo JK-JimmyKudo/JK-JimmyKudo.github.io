@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2a44"/><stop offset=".55" stop-color="#0b1220"/><stop offset="1" stop-color="#16263f"/></linearGradient>
+    <radialGradient id="r"><stop stop-color="#9ec2ff" stop-opacity=".34"/><stop offset="1" stop-color="#9ec2ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#g)"/>
+  <circle cx="590" cy="250" r="330" fill="url(#r)"/>
+  <g fill="none" stroke="#9ec2ff" stroke-opacity=".34" stroke-width="3">
+    <path d="M180 740V360l130-80 130 80v380"/>
+    <path d="M440 740V300h140v440"/>
+    <path d="M180 430h260M180 500h260M180 570h260M180 640h260"/>
+    <path d="M440 370h140M440 440h140M440 510h140M440 610h140"/>
+    <path d="M120 740h660"/>
+  </g>
+  <g fill="none" stroke="#9ec2ff" stroke-opacity=".55" stroke-width="3">
+    <rect x="600" y="455" width="230" height="170" rx="20"/>
+    <path d="M630 500h105M630 545h75M630 590h95"/>
+    <circle cx="772" cy="540" r="28"/>
+    <path d="M761 540l9 10 17-20" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g stroke="#9ec2ff" stroke-opacity=".45" stroke-width="2" stroke-dasharray="8 14"><path d="M130 250h140M310 150h130"/></g>
+  <circle cx="806" cy="592" r="9" fill="#9ec2ff"/>
+  <text x="70" y="800" fill="#fff" fill-opacity=".75" font-family="sans-serif" font-size="44" letter-spacing="12">PROPERTY OPS</text>
+</svg>

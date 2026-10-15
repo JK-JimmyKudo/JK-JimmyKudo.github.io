@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16382c"/><stop offset=".55" stop-color="#08170f"/><stop offset="1" stop-color="#14332a"/></linearGradient>
+    <radialGradient id="r"><stop stop-color="#7fe0a8" stop-opacity=".3"/><stop offset="1" stop-color="#7fe0a8" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#g)"/>
+  <circle cx="620" cy="240" r="320" fill="url(#r)"/>
+  <g fill="none" stroke="#7fe0a8" stroke-opacity=".26" stroke-width="3">
+    <circle cx="450" cy="430" r="255"/>
+    <circle cx="450" cy="430" r="180"/>
+  </g>
+  <path d="M450 230c85 62 128 148 128 222 0 76-52 150-128 180-76-30-128-104-128-180 0-74 43-160 128-222z" fill="none" stroke="#7fe0a8" stroke-opacity=".6" stroke-width="4"/>
+  <g fill="none" stroke="#7fe0a8" stroke-opacity=".34" stroke-width="3">
+    <path d="M450 230v392"/>
+    <path d="M450 372l74-56M450 448l88-66M450 372l-74-56M450 448l-88-66"/>
+  </g>
+  <circle cx="450" cy="330" r="12" fill="#7fe0a8" fill-opacity=".85"/>
+  <g fill="none" stroke="#7fe0a8" stroke-opacity=".5" stroke-width="3">
+    <path d="M700 470l70 26v96c0 62-42 104-70 118-28-14-70-56-70-118v-96z"/>
+    <path d="M678 596l16 18 30-38" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="800" fill="#fff" fill-opacity=".75" font-family="sans-serif" font-size="44" letter-spacing="12">EHS SYSTEM</text>
+</svg>

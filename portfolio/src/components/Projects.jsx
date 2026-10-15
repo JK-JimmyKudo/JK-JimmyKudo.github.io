@@ -44,8 +44,12 @@ export default function Projects() {
               <span className="project-cat">{activeProject.category}</span>
               <span className="project-active-year">{activeProject.year}</span>
             </div>
-            <h3 className="project-active-title">{activeProject.title}</h3>
-            <p className="project-active-desc">{activeProject.desc}</p>
+            <h3 className="project-active-title">
+              <a href={`#project/${activeProject.slug}`}>{activeProject.title}</a>
+            </h3>
+            <p className="project-active-desc">
+              <a href={`#project/${activeProject.slug}`}>{activeProject.desc}</a>
+            </p>
             <div className="project-tags">
               {activeProject.tags.map((tag) => (
                 <span key={tag}>{tag}</span>

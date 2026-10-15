@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c1c2e"/><stop offset=".55" stop-color="#100a12"/><stop offset="1" stop-color="#26182c"/></linearGradient>
+    <radialGradient id="r"><stop stop-color="#ff9ec4" stop-opacity=".3"/><stop offset="1" stop-color="#ff9ec4" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#g)"/>
+  <circle cx="600" cy="230" r="320" fill="url(#r)"/>
+  <g fill="none" stroke="#ff9ec4" stroke-opacity=".4" stroke-width="3">
+    <path d="M420 210h190a30 30 0 0 1 30 30v70a30 30 0 0 1-30 30H474l-30 34v-34h-24a30 30 0 0 1-30-30v-70a30 30 0 0 1 30-30z"/>
+    <path d="M462 245h150M462 282h96"/>
+  </g>
+  <g fill="none" stroke="#ff9ec4" stroke-opacity=".42" stroke-width="3">
+    <rect x="225" y="470" width="135" height="270" rx="12"/>
+    <rect x="385" y="392" width="150" height="348" rx="12"/>
+    <rect x="560" y="520" width="125" height="220" rx="12"/>
+    <path d="M300 540h-30M300 600h-30M300 660h-30M420 470h84M420 540h84M420 610h84M600 590h48M600 650h48"/>
+    <path d="M120 740h660"/>
+  </g>
+  <g fill="none" stroke="#ff9ec4" stroke-opacity=".7" stroke-width="3">
+    <path d="M292 440c60-70 200-70 250 10"/>
+    <path d="M460 380c60-60 150-30 165 40"/>
+  </g>
+  <g fill="#ff9ec4">
+    <circle cx="292" cy="440" r="5"/>
+    <circle cx="460" cy="380" r="5"/>
+    <circle cx="625" cy="420" r="5"/>
+    <circle cx="625" cy="470" r="11" fill-opacity=".85"/>
+  </g>
+  <text x="70" y="800" fill="#fff" fill-opacity=".75" font-family="sans-serif" font-size="44" letter-spacing="12">COMMUNITY</text>
+</svg>

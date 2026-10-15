@@ -24,7 +24,7 @@ export default function Experience() {
 
           <ol className="journey-timeline reveal">
             {experienceTimeline.map((item, index) => (
-              <li className={`journey-item${index === experienceTimeline.length - 1 ? ' is-latest' : ''}`} key={item.period}>
+              <li className={`journey-item${index === 0 ? ' is-latest' : ''}`} key={item.period}>
                 <span className="journey-node" aria-hidden="true" />
                 <div className="journey-period">{item.period}</div>
                 <div className="journey-content">
